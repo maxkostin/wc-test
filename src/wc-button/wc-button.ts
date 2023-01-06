@@ -1,18 +1,18 @@
 const templ = document.createElement("template");
 templ.innerHTML = /*template*/ `
     <style>
-      @import './components/reset.css';
+      @import '/styles/reset.css';
       :host {
-        background-color: #ffcc00;
+        zbackground-color: #ffcc00;
         display: inline-block; /* for proper sizing of <button> */
       }
-      
+
       button {
         appearance: none;
         border: #434343 1px solid;
         border-radius: .75rem;
-        background: var(--background, #cccccc);
-        padding: .5rem;
+        background-color: var(--background, #cccccc);
+        padding: .5rem 1rem;
         width: 100%; /* for proper sizing of <button> - will fill up the :host */
         height: 100%; /* for proper sizing of <button> */
         cursor: pointer;
@@ -25,6 +25,17 @@ templ.innerHTML = /*template*/ `
       button:active {
         background-color: #e1e0e0;
       }
+
+      :host([secondary]) button, :host([simple]) button {
+        padding: .25rem .5rem;
+      }
+
+      :host([simple]) button {
+        border: none;
+        background: transparent;
+        color: #088ac6;
+      }
+
     </style>
 
     <button>
