@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
-  "typings": "lib/index.d.ts",
+  "types": "lib/index.d.ts",
+  "files": [
+    "/lib"
+  ],
+  "type": "module",
   "scripts": {
     "dev": "tsc --watch",
     "build": "tsc",
