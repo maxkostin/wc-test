@@ -15,6 +15,6 @@
 npm-debug.log*
 
 # compiled
-/lib
+/lib/
 
 
