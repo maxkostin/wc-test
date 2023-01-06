@@ -1,1 +1,1 @@
-export * from "./comp1/add.js";
+export * from "./math/add.js";
