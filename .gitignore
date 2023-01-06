@@ -1,0 +1,17 @@
+# dependencies
+/node_modules
+
+# IDEs
+*.iml
+.idea/
+/.idea
+.vscode/*
+.history/*
+/.history/*
+
+# misc
+.DS_Store
+.env
+npm-debug.log*
+
+
