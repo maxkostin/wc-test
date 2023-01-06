@@ -3,7 +3,7 @@ templ.innerHTML = /*template*/ `
     <style>
       @import './components/reset.css';
       :host {
-        zbackground-color: #ffcc00;
+        background-color: #ffcc00;
         display: inline-block; /* for proper sizing of <button> */
       }
       
