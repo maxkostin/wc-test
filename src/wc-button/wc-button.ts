@@ -36,6 +36,11 @@ templ.innerHTML = /*template*/ `
         color: #088ac6;
       }
 
+      :host([disabled]) button {
+        opacity: .35;
+        pointer-events: none;
+      }
+
     </style>
 
     <button>

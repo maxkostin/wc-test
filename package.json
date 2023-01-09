@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "typings": "lib/types/index.d.ts",
   "files": [
     "/lib"
   ],
-  "type": "module",
   "scripts": {
     "dev": "tsc --watch",
     "build": "tsc --build",
+    "pack-local": "npm pack --pack-destination ~",
     "test": ""
   },
   "keywords": [],
